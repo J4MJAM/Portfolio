@@ -1,0 +1,295 @@
+/* Web Setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    color: #555;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section {
+    padding: 80px 0;
+}
+box {
+    padding:1%;
+}
+/*heading */
+h1{
+    margin-top: 0;
+    font-size: 200%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    margin-top: 0;
+    font-size: 150%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 150%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+
+}
+/* Main Nav */
+
+
+
+#nav {
+    margin-bottom: 20px;
+}
+
+.logo {
+    position: absolute;
+    height: 7%;
+}
+.company-name {
+    margin-left: 5%;
+}
+.links li {
+    display:inline-block;
+    float:right;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.links li a:hover,
+.links li a:active{
+    font-size: 32px;
+    transition-duration: 0.6s;
+    margin-left: -16px;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+/*background*/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.70)), url(IMG/noora-alhammadi-WI6tU-VbdBE-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+/*main page */
+.main-page {
+    padding-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.59);
+}
+.main-page-2 {
+    margin-top: 18%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.59);
+}
+/*buttons */
+.donations a,
+.donations-2 a {
+    display: block;
+    margin-left: 660px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: solid 3px #726d6d;
+    padding: 16px 30px 10px 30px;
+    border-radius: 30px;
+}
+.donations a  {
+    padding-right: 55px;
+    padding-left: 55px;
+        margin-top: 30px;
+   
+}
+.btn a:hover,
+.btn a:active {
+    background-color: #272727;
+}
+/* Our Origins Page */
+.section-mission {
+    padding-bottom: 10%;
+    background-color: #e3e3e3;
+}
+.mission-header h1{
+    padding-bottom: 60px;
+    font-size: 300%;
+}
+.mission-header h2 {
+    font-size: 200%;
+    font-weight: 300;
+    padding-bottom: 100px
+}
+
+
+.mission-picture {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.70)), url(IMG/anna-auza-9jOG5ehOUKk-unsplash.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+}
+.mission-text {
+    text-align: center;
+    font-size: 150%;
+    width: 0 auto;
+    margin: 0 20%;
+}
+.p2 {padding-top: 60px;}
+/* Logos */
+.award-1,
+.award-2,
+.award-3 {
+    position: absolute;
+    height: 8%;
+}
+.award-1 {
+    margin-left: 47%;
+    margin-top: 70px;
+    height: 13%;
+}
+.award-2 {
+    margin-left: 27%;
+    margin-top: 100px;
+}
+.award-3 {
+    margin-left: 67%;
+    margin-top: 100px;
+}
+/* SHOP */
+.origin {
+    background-color: #e3e3e3
+}
+.farm-1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.70)), url(IMG/Nature-Leaf-Outdoors-Tree-Plant-Harvest-3256960.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin-top:0;
+}
+.farm-2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.70)), url(IMG/Farmer-Organic-Cow-657332.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin-top:0;
+}
+.farm-3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.70)), url(IMG/Farmer1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin-top:0;
+}
+.farm-2 h1,
+.farm-3 h1
+ {
+    padding-top: 100px
+}
+.farm-1 h1 {padding-top: -50px;}
+.origin h2 {
+    color: #d1d1d1;
+    font-size: 240%;
+}
+.origin h1 {
+    color: #d1d1d1;
+    text-align: start;
+    margin-top: 0px;
+    padding-left: 2%;
+}
+.origin blockquote{
+    width: 50%;
+    font-size: 130%;
+    font-style: italic;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: #fff;
+}
+blockquote:before {
+    content: "\201C";
+    font-size: 200%;
+    display: block;
+    padding: -10px;
+    position: relative;
+/*Transitions */
+}
+.farm-1:hover #text-1 {
+    opacity: 1;
+    transition: 1.0s;
+}
+.origin #text-1 {
+    opacity: 0;
+    transition: 0.5s;
+}
+.farm-2:hover #text-2 {
+    opacity: 1;
+    transition: 1.0s;
+}
+.origin #text-2 {
+    opacity: 0;
+    transition: 0.5s;
+}
+.farm-3:hover #text-3 {
+    opacity: 1;
+    transition: 1.0s;
+}
+.origin #text-3 {
+    opacity: 0;
+    transition: 0.5s;
+}
+/* Contact */
+.section-contact {
+    background-color: #eaeaea;
+}
+.section-contact li {
+    width: 25%;
+    display:block;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background-color: #000000;
+}
+.location-photo img {
+    width: 100%;
+    height: 500px;
+}
+.location-photo img:hover {
+    opacity: 70%;
+}
+.section-contact figcaption {
+    color: #623e3e;
+}
+.donate {
+    margin-top: 5%
+}
+
